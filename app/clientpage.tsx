@@ -130,11 +130,11 @@ export default function Component() {
             <p className="text-gray-600">Built by chribjel</p>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/chribjel"
+                href="https://github.com/chribjel/no-links-please"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
-                aria-label="GitHub Profile"
+                aria-label="GitHub Repository"
               >
                 <Github className="w-5 h-5" />
               </a>
