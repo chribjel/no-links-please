@@ -28,14 +28,14 @@ export async function GET() {
         {/* App title */}
         <div
           style={{
-            fontSize: 72,
+            fontSize: 84,
             fontWeight: "bold",
             color: "#1e293b",
             marginBottom: "20px",
             letterSpacing: "-0.02em",
           }}
         >
-          No Links Please
+          Unlinkify
         </div>
 
         {/* Subtitle */}
@@ -44,11 +44,11 @@ export async function GET() {
             fontSize: 32,
             color: "#64748b",
             marginBottom: "40px",
-            maxWidth: "800px",
+            maxWidth: "900px",
             lineHeight: 1.3,
           }}
         >
-          Insert zero-width spaces in URLs to prevent auto-linking
+          Remove auto-linking from URLs with zero-width spaces
         </div>
 
         {/* Visual demonstration */}
@@ -84,7 +84,7 @@ export async function GET() {
                 textDecoration: "underline",
               }}
             >
-              google.com
+              example.com
             </div>
           </div>
 
@@ -117,7 +117,7 @@ export async function GET() {
                 fontFamily: "monospace",
               }}
             >
-              google.​com
+              example.​com
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ export async function GET() {
             fontWeight: "500",
           }}
         >
-          nolinksplease.com
+          unlinkify.com
         </div>
       </div>
     </div>,
