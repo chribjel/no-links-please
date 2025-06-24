@@ -35,7 +35,7 @@ export async function GET() {
             letterSpacing: "-0.02em",
           }}
         >
-          Unlinkify
+          Delinkify
         </div>
 
         {/* Subtitle */}
@@ -131,7 +131,7 @@ export async function GET() {
             fontWeight: "500",
           }}
         >
-          unlinkify.com
+          delinkify.com
         </div>
       </div>
     </div>,

@@ -44,7 +44,7 @@ export default function Component() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <div className="max-w-4xl mx-auto space-y-6">
         <div className="text-center space-y-2">
-          <h1 className="text-4xl font-bold text-gray-900">Unlinkify</h1>
+          <h1 className="text-4xl font-bold text-gray-900">Delinkify</h1>
           <p className="text-lg text-gray-600">Remove auto-linking from URLs with zero-width spaces</p>
         </div>
 
@@ -67,7 +67,7 @@ export default function Component() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center justify-between">
-                Unlinkified Text
+                Delinkified Text
                 <Button
                   variant="outline"
                   size="sm"
@@ -95,7 +95,7 @@ export default function Component() {
                 value={outputText}
                 readOnly
                 className="min-h-[300px] resize-none bg-gray-50"
-                placeholder="Unlinkified text will appear here..."
+                placeholder="Delinkified text will appear here..."
               />
             </CardContent>
           </Card>

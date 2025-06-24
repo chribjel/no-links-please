@@ -2,20 +2,20 @@ import type { Metadata } from "next"
 import ClientPage from "./clientpage"
 
 export const metadata: Metadata = {
-  title: "Unlinkify - Remove Auto-Linking from URLs with Zero-Width Spaces",
+  title: "Delinkify - Remove Auto-Linking from URLs with Zero-Width Spaces",
   description:
     "Insert zero-width spaces in URLs to prevent auto-linking. Perfect for sharing URLs without creating clickable links on social media and messaging platforms.",
   openGraph: {
-    title: "Unlinkify - Remove Auto-Linking from URLs",
+    title: "Delinkify - Remove Auto-Linking from URLs",
     description: "Insert zero-width spaces in URLs to prevent auto-linking on social media and messaging platforms",
-    url: "https://unlinkify.com",
-    siteName: "Unlinkify",
+    url: "https://delinkify.com",
+    siteName: "Delinkify",
     images: [
       {
         url: "/api/og",
         width: 1200,
         height: 630,
-        alt: "Unlinkify - Remove Auto-Linking from URLs with Zero-Width Spaces",
+        alt: "Delinkify - Remove Auto-Linking from URLs with Zero-Width Spaces",
       },
     ],
     locale: "en_US",
@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Unlinkify - Remove Auto-Linking from URLs",
+    title: "Delinkify - Remove Auto-Linking from URLs",
     description: "Insert zero-width spaces in URLs to prevent auto-linking on social media and messaging platforms",
     images: ["/api/og"],
   },
   keywords: [
-    "unlinkify",
+    "delinkify",
     "remove links",
     "zero-width space",
     "prevent auto-linking",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   creator: "chribjel",
   robots: "index, follow",
   alternates: {
-    canonical: "https://unlinkify.com",
+    canonical: "https://delinkify.com",
   },
 }
 
